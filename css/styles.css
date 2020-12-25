@@ -1,0 +1,162 @@
+h1{  
+    font-family: 'Montserrat';
+    font-size: 3.5rem !important;
+    line-height: 1.5;
+    
+}
+body{
+    font-family: 'Montserrat';
+}
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem 0 !important;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem !important;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: "Montserrat-Light";
+}
+
+/* first div */
+
+.iphone-image{
+    transform: rotate(25deg);
+    width: 55%;
+    right: 30%;
+    position: absolute;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    padding: 3% 15% 7%;
+}
+
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* media query */
+
+@media (max-width:1028px){
+    .iphone-image{
+        transform: rotate(0deg);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* section 2 features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.table-icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.table-icon:hover{  
+    color : #ff4c68;
+}
+h3{
+    font-family: 'Arial' !important;
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+}
+p{
+    color: #8f8f8f;
+    word-wrap: break-word;
+}
+.feature-box{
+    text-align: center;
+    padding: 5% !important;
+}
+
+/* section 3 testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+h2{
+    font-family: 'Arial';
+    font-size: 3rem !important;
+    line-height: 1.5;
+    font-weight: bold !important;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* section 4 pess */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo-press{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* section 5 pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* section 6 cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10%;
+    color: #fff;
+    line-height: 1.5rem;
+}
+.cta-text{
+    font-size: 2.5rem !important;
+    width: 65%;
+    margin: auto;
+}
+.cta-btn{
+    margin: 5% 1.5% 0 1.5%;
+
+}
+
+/* section 7 footer */
+
+#footer{
+    margin: 3%;
+    text-align: center;
+}
+
+.footer-icons{
+    padding: 1rem;
+}
+.footer-i{
+    margin: 0 0.5rem;
+}
+
